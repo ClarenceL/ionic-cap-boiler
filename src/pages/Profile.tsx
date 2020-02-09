@@ -10,15 +10,16 @@ import {
   IonItem,
   IonLabel
 } from '@ionic/react'
+import styled from 'styled-components'
 
-import '../css/main.css'
+import '../css/main.scss'
 
 const Profile: React.FC = (props: any) => {
 
   return (
     <IonCard mode="ios" className="card-body">
       <IonCardHeader>
-        <IonCardSubtitle>My Profile</IonCardSubtitle>
+        <StyledSubtitle>My Profile</StyledSubtitle>
       </IonCardHeader>
 
       <IonCardContent>
@@ -43,6 +44,10 @@ const Profile: React.FC = (props: any) => {
 // don't use this if you want to use thunk/async actions
 // const mapDispatchToProps = { ActionSetDID }
 
-
 export default Profile
+
+const StyledSubtitle = styled(IonCardSubtitle)`
+  font-style: italic;
+  text-transform: uppercase;
+`
 

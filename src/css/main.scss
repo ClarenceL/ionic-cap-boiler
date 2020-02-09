@@ -1,0 +1,21 @@
+
+
+.card-body {
+
+    > ion-card-header {
+        background-color: #dedede;
+        border-bottom: 1px solid #ccc;
+        padding-left: 5%;
+
+        > ion-card-subtitle {
+            color: #333;
+            font-size: 1.1em;
+        }
+    }
+
+    > ion-card-content {
+        background-color: #fff;
+    }
+}
+
+

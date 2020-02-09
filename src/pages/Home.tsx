@@ -3,7 +3,7 @@ import {
   IonCard, IonCardHeader, IonCardSubtitle
 } from '@ionic/react'
 
-import '../css/main.css'
+import '../css/main.scss'
 
 const Home: React.FC = (props: any) => {
 
